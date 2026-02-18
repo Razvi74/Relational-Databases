@@ -1,1 +1,12 @@
-
+Starting with games.csv, containing a comma-separated list of all games of the final three rounds of the World Cup tournament since 2014, the requirements for this project was:
+    •  Create a database named worldcup
+    •  Create teams and games tables
+    •  The teams table should have a team_id column that is a type of SERIAL and is the primary key, and a name column that has to be UNIQUE
+    •  The games table should have a game_id column that is a type of SERIAL and is the primary key, a year column of type INT, and a round column of type VARCHAR
+    •  The games table should have winner_id and opponent_id foreign key columns that each reference team_id from the teams table
+    •  The games table should have winner_goals and opponent_goals columns that are type INT
+    • All the columns should have the NOT NULL constraint
+    •  The two script (.sh) files should have executable permissions 
+    • When you run your insert_data.sh script, it should add each unique team to the teams table. There should be 24 rows
+    • When you run your insert_data.sh script, it should insert a row for each line in the games.csv file (other than the top line of the file). There should be 32 rows. Each row should have every column filled in with the appropriate info. 
+The queries in the queries.sh file should be correctly completed. The output of queries.sh file should match what is in the expected_output.txt file exactly, take note of the number of decimal places in some of the query results

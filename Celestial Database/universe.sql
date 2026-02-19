@@ -471,14 +471,14 @@ INSERT INTO public.moon_type VALUES (5, 'trojan', NULL);
 -- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.planet VALUES (1, 'Earth', 'The only planet supporting life', true, true, 4503, 1, 1, 2);
-INSERT INTO public.planet VALUES (2, 'Mercury', 'The closest planet to the Sun', true, false, 4503, 0.5, 1, 2);
-INSERT INTO public.planet VALUES (3, 'Venus', 'Similar in size to Earth', true, false, 4503, 0.7, 1, 2);
-INSERT INTO public.planet VALUES (4, 'Mars', 'Known as the “Red Planet”', true, false, 4540, 1.6, 1, 2);
-INSERT INTO public.planet VALUES (5, 'Jupiter', 'The largest planet of our soalar system', true, false, 4565, 5.46, 2, 2);
-INSERT INTO public.planet VALUES (6, 'Saturn', 'A gas giant with83+ moons', true, false, 4543, 10.12, 2, 2);
-INSERT INTO public.planet VALUES (7, 'Uranus', 'An ice giant with narrow rings', true, false, 4543, 20.1, 3, 2);
-INSERT INTO public.planet VALUES (8, 'Neptun', 'The most distant planet of our system', true, false, 4543, 30.5, 3, 2);
+INSERT INTO public.planet VALUES (1, 'Earth', 'The only planet supporting life', true, true, 4503, 1, 1, 1);
+INSERT INTO public.planet VALUES (2, 'Mercury', 'The closest planet to the Sun', true, false, 4503, 0.5, 1, 1);
+INSERT INTO public.planet VALUES (3, 'Venus', 'Similar in size to Earth', true, false, 4503, 0.7, 1, 1);
+INSERT INTO public.planet VALUES (4, 'Mars', 'Known as the “Red Planet”', true, false, 4540, 1.6, 1, 1);
+INSERT INTO public.planet VALUES (5, 'Jupiter', 'The largest planet of our soalar system', true, false, 4565, 5.46, 2, 1);
+INSERT INTO public.planet VALUES (6, 'Saturn', 'A gas giant with83+ moons', true, false, 4543, 10.12, 2, 1);
+INSERT INTO public.planet VALUES (7, 'Uranus', 'An ice giant with narrow rings', true, false, 4543, 20.1, 3, 1);
+INSERT INTO public.planet VALUES (8, 'Neptun', 'The most distant planet of our system', true, false, 4543, 30.5, 3, 1);
 INSERT INTO public.planet VALUES (9, 'Proxima-b', 'The closest exoplanet to Earth', true, false, 4850, 0.5, 1, 3);
 INSERT INTO public.planet VALUES (10, 'Trappist 1b', 'The first Trappist-1 planet of Trappist-1', true, false, 7600, 0.0115, 1, 4);
 INSERT INTO public.planet VALUES (11, 'Trappist 1c', 'Earth-sized exoplanet', true, false, 7600, 0.0158, 1, 4);
